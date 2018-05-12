@@ -1,7 +1,7 @@
 # HackerRank
 Solutions to problems on [HackerRank](http://www.spoj.com/)
 
-* [Java](#Java)
+* [Java](#java)
 
 ## Java
 
