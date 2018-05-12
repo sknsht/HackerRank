@@ -1,5 +1,5 @@
 # HackerRank
-Solutions to problems on [HackerRank](http://www.spoj.com/)
+Solutions to problems on [HackerRank](https://www.hackerrank.com)
 
 * [Java](#java)
 
@@ -29,5 +29,5 @@ Solutions to problems on [HackerRank](http://www.spoj.com/)
 |           Strings           | [Pattern Syntax Checker](https://www.hackerrank.com/challenges/pattern-syntax-checker)                                   |   20   |    Easy    | [Solution.java](Java/Strings/Pattern%20Syntax%20Checker/Solution.java)               |
 |           Strings           | [Java Regex](https://www.hackerrank.com/challenges/java-regex)                                                           |   25   |   Medium   | [Solution.java](Java/Strings/Java%20Regex/Solution.java)                             |
 |           Strings           | [Java Regex 2 - Duplicate Words](https://www.hackerrank.com/challenges/duplicate-word)                                   |   25   |   Medium   | [Solution.java](Java/Strings/Java%20Regex%202%20-%20Duplicate%20Words/Solution.java) |
-|           Strings           | [Valid Username Regular Expression](https://www.hackerrank.com/challenges/valid-username-checker)                        |   20   |    Easy    | [Solution.java](Java/Strings/Valid%20Username%20Regular%20Expression/Solution.java) |
+|           Strings           | [Valid Username Regular Expression](https://www.hackerrank.com/challenges/valid-username-checker)                        |   20   |    Easy    | [Solution.java](Java/Strings/Valid%20Username%20Regular%20Expression/Solution.java)  |
 |           Strings           | [Tag Content Extractor](https://www.hackerrank.com/challenges/tag-content-extractor)                                     |   20   |   Medium   | [Solution.java](Java/Strings/Tag%20Content%20Extractor/Solution.java)                |
