@@ -4,9 +4,9 @@ public class Solution {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
         ArrayList<ArrayList<Integer>> rows = new ArrayList<>();
-
+        
+        int n = in.nextInt();
         for (int i = 0; i < n; i++) {
             int m = in.nextInt();
             ArrayList<Integer> row = new ArrayList<>();
@@ -16,6 +16,7 @@ public class Solution {
             }
             rows.add(row);
         }
+        
         n = in.nextInt();
         for (int i = 0; i < n; i++) {
             int x = in.nextInt();
