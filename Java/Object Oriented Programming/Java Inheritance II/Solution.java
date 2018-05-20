@@ -5,8 +5,7 @@ class Arithmetic {
 }
 
 class Adder extends Arithmetic {
-    Adder() {
-    }
+    Adder() {}
 }
 
 public class Solution {
