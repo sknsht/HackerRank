@@ -2,6 +2,7 @@
 Solutions to problems on [HackerRank](https://www.hackerrank.com)
 
 * [Java](#java)
+* [Python](#python)
 
 ## Java
 
@@ -71,3 +72,5 @@ Solutions to problems on [HackerRank](https://www.hackerrank.com)
 |           Advanced          | [Java Lambda Expressions](https://www.hackerrank.com/challenges/java-lambda-expressions)                                 |   30   |   Medium   | [Solution.java](Java/Advanced/Java%20Lambda%20Expressions/Solution.java)                                               |
 |           Advanced          | [Java MD5](https://www.hackerrank.com/challenges/java-md5)                                                               |   30   |   Medium   | [Solution.java](Java/Advanced/Java%20MD5/Solution.java)                                                                |
 |           Advanced          | [Java SHA-256](https://www.hackerrank.com/challenges/sha-256)                                                            |   30   |   Medium   | [Solution.java](Java/Advanced/Java%20SHA-256/Solution.java)                                                            |
+
+## Python
