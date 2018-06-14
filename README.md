@@ -3,7 +3,7 @@ Solutions to problems on [HackerRank](https://www.hackerrank.com)
 
 * [Java](#java)
 * [Python](#python)
-* [SQL] (#sql)
+* [SQL](#sql)
 
 ## Java
 
