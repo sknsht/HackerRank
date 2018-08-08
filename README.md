@@ -4,6 +4,7 @@ Solutions to problems on [HackerRank](https://www.hackerrank.com)
 * [Java](#java)
 * [Python](#python)
 * [SQL](#sql)
+* [Cracking the Coding Interview](#cracking-the-coding-interview)
 
 ## Java
 
@@ -256,3 +257,5 @@ Solutions to problems on [HackerRank](https://www.hackerrank.com)
 |     Alternative Queries     | [Draw The Triangle 1](https://www.hackerrank.com/challenges/draw-the-triangle-1)                                             |   25   |    Easy    | [Solution.sql](SQL/Alternative%20Queries/Draw%20The%20Triangle%201/Solution.sql)                  |
 |     Alternative Queries     | [Draw The Triangle 2](https://www.hackerrank.com/challenges/draw-the-triangle-2)                                             |   25   |    Easy    | [Solution.sql](SQL/Alternative%20Queries/Draw%20The%20Triangle%202/Solution.sql)                  |
 |     Alternative Queries     | [Print Prime Numbers](https://www.hackerrank.com/challenges/print-prime-numbers)                                             |   40   |   Medium   | [Solution.sql](SQL/Alternative%20Queries/Print%20Prime%20Numbers/Solution.sql)                    |
+
+## Cracking the Coding Interview
