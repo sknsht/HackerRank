@@ -5,6 +5,7 @@ Solutions to problems on [HackerRank](https://www.hackerrank.com)
 * [Python](#python)
 * [SQL](#sql)
 * [Cracking the Coding Interview](#cracking-the-coding-interview)
+* [Interview Preparation Kit](#interview-preparation-kit)
 
 ## Java
 
