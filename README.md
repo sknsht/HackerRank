@@ -5,6 +5,7 @@ Solutions to problems on [HackerRank](https://www.hackerrank.com)
 * [Python](#python)
 * [SQL](#sql)
 * [Cracking the Coding Interview](#cracking-the-coding-interview)
+* [Interview Preparation Kit](#interview-preparation-kit)
 
 ## Java
 
@@ -282,3 +283,5 @@ Solutions to problems on [HackerRank](https://www.hackerrank.com)
 |  Techniques / Concepts | [Recursion: Davis' Staircase](https://www.hackerrank.com/challenges/ctci-recursive-staircase)            |   30   |   Medium   | [Solution.java](Cracking%20the%20Coding%20Interview/Techniques%20Concepts/Recursion%20Davis'%20Staircase/Solution.java)             |
 |  Techniques / Concepts | [DP: Coin Change](https://www.hackerrank.com/challenges/ctci-coin-change)                                |   60   |    Hard    | [Solution.java](Cracking%20the%20Coding%20Interview/Techniques%20Concepts/DP%20Coin%20Change/Solution.java)                         |
 |  Techniques / Concepts | [Bit Manipulation: Lonely Integer](https://www.hackerrank.com/challenges/ctci-lonely-integer)            |   20   |    Easy    | [Solution.java](Cracking%20the%20Coding%20Interview/Techniques%20Concepts/Bit%20Manipulation%20Lonely%20Integer/Solution.java)      |
+
+## Interview Preparation Kit
