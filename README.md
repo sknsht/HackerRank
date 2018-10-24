@@ -285,3 +285,10 @@ Solutions to problems on [HackerRank](https://www.hackerrank.com)
 |  Techniques / Concepts | [Bit Manipulation: Lonely Integer](https://www.hackerrank.com/challenges/ctci-lonely-integer)            |   20   |    Easy    | [Solution.java](Cracking%20the%20Coding%20Interview/Techniques%20Concepts/Bit%20Manipulation%20Lonely%20Integer/Solution.java)      |
 
 ## Interview Preparation Kit
+
+|        Subdomain       |                                                 Challenge                                                | Score  | Difficulty |                                                   Solution                                                    |
+|:----------------------:|:--------------------------------------------------------------------------------------------------------:|:------:|:----------:|:-------------------------------------------------------------------------------------------------------------:|
+|   Warm-up Challenges   | [Sock Merchant](https://www.hackerrank.com/challenges/sock-merchant)                                     |   10   |    Easy    | [Solution.java](Interview%20Preparation%20Kit/Warm-up%20Challenges/Sock%20Merchant/Solution.java)             |
+|   Warm-up Challenges   | [Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys)                               |   15   |    Easy    | [Solution.java](Interview%20Preparation%20Kit/Warm-up%20Challenges/Counting%20Valleys/Solution.java)          |
+|   Warm-up Challenges   | [Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds)                     |   20   |    Easy    | [Solution.java](Interview%20Preparation%20Kit/Warm-up%20Challenges/Jumping%20on%20the%20Clouds/Solution.java) |
+|   Warm-up Challenges   | [Repeated String](https://www.hackerrank.com/challenges/repeated-string)                                 |   20   |    Easy    | [Solution.java](Interview%20Preparation%20Kit/Warm-up%20Challenges/Repeated%20String/Solution.java)           |
