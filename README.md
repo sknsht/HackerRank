@@ -6,6 +6,7 @@ Solutions to problems on [HackerRank](https://www.hackerrank.com)
 * [SQL](#sql)
 * [Cracking the Coding Interview](#cracking-the-coding-interview)
 * [Interview Preparation Kit](#interview-preparation-kit)
+* [Functional Programming](#functional-programming)
 
 ## Java
 
@@ -328,3 +329,9 @@ Solutions to problems on [HackerRank](https://www.hackerrank.com)
 | Recursion and Backtracking | [Recursion: Davis' Staircase](https://www.hackerrank.com/challenges/ctci-recursive-staircase)                                |   30   |   Medium   | [Solution.java](Interview%20Preparation%20Kit/Recursion%20and%20Backtracking/Recursion%20Davis'%20Staircase/Solution.java)         |
 |       Miscellaneous        | [Flipping bits](https://www.hackerrank.com/challenges/flipping-bits)                                                         |   40   |    Easy    | [Solution.java](Interview%20Preparation%20Kit/Miscellaneous/Flipping%20bits/Solution.java)                                         |
 |       Miscellaneous        | [Time Complexity: Primality](https://www.hackerrank.com/challenges/ctci-big-o)                                               |   30   |   Medium   | [Solution.java](Interview%20Preparation%20Kit/Miscellaneous/Time%20Complexity%20Primality/Solution.java)                           |
+
+## Functional Programming
+|        Subdomain       |                                                 Challenge                                                | Score  | Difficulty |                                                              Solution                                                               |
+|:----------------------:|:--------------------------------------------------------------------------------------------------------:|:------:|:----------:|:-----------------------------------------------------------------------------------------------------------------------------------:|
+|      Introduction      | [Solve Me First FP](https://www.hackerrank.com/challenges/fp-solve-me-first)                             |    3   |    Easy    | [Solution.scala](Functional%20Programming/Introduction/Solve%20Me%20First%20FP/Solution.scala)                                      |
+|      Introduction      | [Hello World](https://www.hackerrank.com/challenges/fp-hello-world)                                      |    5   |    Easy    | [Solution.scala](Functional%20Programming/Introduction/Hello%20World/Solution.scala)                                                |
