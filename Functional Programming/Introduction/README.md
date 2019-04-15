@@ -1,0 +1,5 @@
+# Functional Programming
+|        Subdomain       |                                                 Challenge                                                | Score  | Difficulty |                                                  Solution                                                  |
+|:----------------------:|:--------------------------------------------------------------------------------------------------------:|:------:|:----------:|:----------------------------------------------------------------------------------------------------------:|
+|      Introduction      | [Solve Me First FP](https://www.hackerrank.com/challenges/fp-solve-me-first)                             |    3   |    Easy    | [Solution.scala](Introduction/Solve%20Me%20First%20FP/Solution.scala)                                      |
+|      Introduction      | [Hello World](https://www.hackerrank.com/challenges/fp-hello-world)                                      |    5   |    Easy    | [Solution.scala](Introduction/Hello%20World/Solution.scala)                                                |
