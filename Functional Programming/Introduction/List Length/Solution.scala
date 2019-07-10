@@ -1,0 +1,1 @@
+def f(arr: List[Int]): Int = arr.map(_ => 1).sum
