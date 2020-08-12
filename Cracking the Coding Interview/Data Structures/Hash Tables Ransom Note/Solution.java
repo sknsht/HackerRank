@@ -1,32 +1,37 @@
-import java.util.*;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.stream.Stream;
 
 public class Solution {
+    private static final Scanner scanner = new Scanner(System.in);
+
+    // Complete the checkMagazine function below.
+    static void checkMagazine(String[] magazine, String[] note) {
+        final Map<String, Integer> map = new HashMap<>();
+        Stream.of(magazine).forEach(word -> map.put(word, map.getOrDefault(word, 0) + 1));
+        Stream.of(note).forEach(word -> map.put(word, map.getOrDefault(word, 0) - 1));
+        final String answer = map.values().stream().anyMatch(v -> v < 0) ? "No" : "Yes";
+        System.out.println(answer);
+    }
 
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int m = in.nextInt();
-        int n = in.nextInt();
-        
-        HashMap<String, Integer> magazine = new HashMap<>();
-        for (int i = 0; i < m; i++) {
-            String word = in.next();
-            magazine.put(word, magazine.getOrDefault(word, 0) + 1);
-        }
-        HashMap<String, Integer> ransom = new HashMap<>();
-        for (int i = 0; i < n; i++) {
-            String word = in.next();
-            ransom.put(word, ransom.getOrDefault(word, 0) + 1);
-        }
-        in.close();
-        
-        if (magazine.size() < ransom.size()) {
-            System.out.println("No");
-        } else {
-            Optional<Integer> res = ransom.entrySet().stream()
-                    .map(e -> magazine.getOrDefault(e.getKey(), 0) - e.getValue())
-                    .filter(e -> e < 0)
-                    .findFirst();
-            System.out.println(res.isPresent() ? "No" : "Yes");
-        }
+        String[] mn = scanner.nextLine().split(" ");
+
+        int m = Integer.parseInt(mn[0]);
+        int n = Integer.parseInt(mn[1]);
+
+        String[] magazine = new String[m];
+        String[] magazineItems = scanner.nextLine().split(" ");
+        System.arraycopy(magazineItems, 0, magazine, 0, m);
+
+        String[] note = new String[n];
+        String[] noteItems = scanner.nextLine().split(" ");
+        System.arraycopy(noteItems, 0, note, 0, n);
+
+        checkMagazine(magazine, note);
+
+        scanner.close();
     }
 }
