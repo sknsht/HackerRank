@@ -1,30 +1,33 @@
-import java.util.*;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
 
 public class Solution {
 
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        String a = in.nextLine();
-        String b = in.nextLine();
-        in.close();
+    private static final Scanner scanner = new Scanner(System.in);
 
-        HashMap<Character, Integer> map = new HashMap<>();
-        int difference = 0;
+    // Complete the makeAnagram function below.
+    static int makeAnagram(String a, String b) {
+        Map<Integer, Integer> map = new HashMap<>();
+        a.chars().forEach(c -> map.put(c, map.getOrDefault(c, 0) + 1));
+        b.chars().forEach(c -> map.put(c, map.getOrDefault(c, 0) - 1));
+        return map.values().stream().reduce(0, (subtotal, value) -> subtotal + Math.abs(value));
+    }
 
-        for (char letter : a.toCharArray()) {
-            map.put(letter, map.getOrDefault(letter, 0) + 1);
-        }
+    public static void main(String[] args) throws IOException {
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
-        for (char letter : b.toCharArray()) {
-            if (!map.containsKey(letter) || map.get(letter) == 0)
-                difference++;
-            else
-                map.put(letter, map.get(letter) - 1);
-        }
+        String a = scanner.nextLine();
+        String b = scanner.nextLine();
 
-        for (char letter : map.keySet()) {
-            difference += map.get(letter);
-        }
-        System.out.println(difference);
+        int res = makeAnagram(a, b);
+
+        bufferedWriter.write(String.valueOf(res));
+        bufferedWriter.newLine();
+        bufferedWriter.close();
+        scanner.close();
     }
 }
